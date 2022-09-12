@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+.header
+{
+    background-color: black;
+    height: 60px;
+    border: solid black;
+    display: flex;
+}
+.pumalogo
+{
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.head_topic
+{
+  
+    color: white;
+    padding-left: 50px;
+    padding-top: 18px;
+}
+.search {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  height: 20px;
+  font-size: 16px;
+  background-color: rgb(229, 213, 213);
+  background-image: url('search.svg');
+  background-size: 10px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 15px;
+ color: white;
+
+}
+ .image1_text1 {
+    position: absolute;
+    font-size: 40px;
+    bottom: 328px;
+    right: 126px;
+    
+  }
+  .image1_text2 {
+    position: absolute;
+    font-size: 20px;
+    bottom: 300px;
+    right: 100px;
+   
+  }
+  .image1_text3
+  {
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 250px;
+    right: 400px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+  }
+  .image1_text4
+  {
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 250px;
+    right: 220px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+  }
+  .image1_text5
+  {
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 250px;
+    right: 100px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+  }
+  .heading1
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+  .shoe_flex
+  {
+   
+    display: flex;
+  }
+  .shoe
+  {
+    width: 25%;
+  }
+  .shoe_flex_price
+  {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 15% 10% 15% 10% 15% 10% 15% 10%;
+  }
+  .shoe1
+  {
+    padding-left: 30px;
+  }
+  .shoe2
+  {
+    padding-left: 130px;
+  }
+  .virat
+  {
+    position: relative;
+  }
+  .virat_im
+  {
+    width: 100%;
+  }
+  .virat_text
+  {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+  }
+  .virat_text2
+  {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+  }
+  .virat_text3
+  {
+    position: absolute;
+    color: black;
+    background-color: white;
+    top: 62%;
+    left: 39%;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-top: 12px;
+    padding-left: 20px;
+  }
+  .virat_text4
+  {
+    position: absolute;
+    color: black;
+    background-color: white;
+    top: 62%;
+    left: 50%;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    padding-top: 12px;
+  }
+  .kareena_text
+  {
+    position: relative;
+  }
+  .kareena
+  {
+    position: absolute;
+    font-size: 47px;
+    top: 30%;
+    left: 64%;
+    font-weight:bold;
+  }
+  .kareena1
+  {
+    position: absolute;
+    font-size: 47px;
+    top: 39%;
+    left: 68%;
+    font-weight:bold;
+  }
+
+ .footer_new
+ {
+  display: grid;
+  grid-template-columns: auto auto 10px auto auto 30px 400px;
+  grid-template-rows: 35px 5px 30px 25px  ;
+background-color: black;
+height: 250px;
+width: 100%;
+padding-top: 80px;
+padding-left: 20px;
+padding-right: 20px;
+margin: 0%;
+ }
+ .footer_text_bold
+ {
+  color: white;
+  padding-top: 5px;
+ }
+.footer_text_logo
+{
+  border-top:solid white;
+}
+.link
+{
+  padding-top: 10px;
+}
+.trac
+{
+  display: grid;
+  background-color: black;
+  grid-template-columns: 72% 5% auto;
+  grid-template-rows: 100px;
+}
+.train
+{
+  padding-top: 10px;
+  color: white;
+  display:inline-block;
+    border-bottom:1px solid yellow;
+    padding-bottom:2px;
+}
